@@ -1,46 +1,91 @@
 Css:
 body {
-   margin: 0;
-   font-family:Arial, Helvetica, sans-serif;
+
 }
-.container {
+#flex-item2{
+   color: aliceblue;
    display: flex;
-   flex-direction: column;
    align-items: center;
-   margin-top: 50px;
+   margin: 10px;
+   font-size: 20px;
 }
-.box {
-   width: 1000px;
+#flex-item3{
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+   margin: 10px;
+   font-size: 20px;
+}
+#flex-item4{
+   color: aliceblue;
+   display: flex;
+   align-items: center;
+  margin: 10px;
+   font-size: 20px;
+}
+.flex-container3{
+   display: flex;
+   width: 1900px;
+   background-color: beige;
+}
+#flex-item5{
+   color:cornsilk;
+   background-color: green;
+   width: 630px;
+   height: 500px;
+   align-items: center;
    text-align: center;
+   vertical-align: middle;
+   margin: 5px;
+   font-size: 20px;
 }
-#header-box {
-   height: 100px;
-   background-color: rgb(184, 176, 177);
-   font-weight: bold;
-   font-size:200%;
+#P{
+   align-items: center;
+   vertical-align: middle;
+   text-align: justify;
 }
-#nav-box {
-   height: 50px;
-   background-color: rgb(153, 123, 153);
+#flex-item6{
+   color:cornsilk;
+   background-color: rgb(212, 191, 0);
+   width: 630px;
+   height: 500px;
+   align-items: center;
+   text-align: center;
+   vertical-align: middle;
+   margin: 5px;
+   font-size: 20px;
+}
+#flex-item7{
+   color:cornsilk;
+   background-color: rgb(255, 23, 23);
+   width: 630px;
+   height: 500px;
+   align-items: center;
+   text-align: center;
+   vertical-align: middle;
+   margin: 5px;
+   font-size: 20px;
+}
+.flex-container4{
+   background-color: rgb(174, 243, 255);
+   display: flex;
+   width: 1900px;
+   height: 60px;
+   align-items: center;
+   justify-content:center;
+   font-size: 20px;
    color: rgb(0, 0, 0);
-   margin-top: 0px;
-   font-size:110%;
+   border-style: solid;
 }
-#content-box {
-   height: 550px;
-   background-color: gray;
-   color: white;
-   margin-top: 0px;
-   text-align: left;
-   padding-left: 10px;
-   border: 0px solid white;
-   box-sizing: border-box;
+#flex-item8{
+   margin: 20px;
 }
-#footer-box {
-   height: 50px;
-   background-color: rgb(153, 123, 153);
-   align-self: center;
-   margin-top: 0px;
-   font-weight: bold;
-   font-size: 15px;
+#flex-item9{
+   margin: 20px;
+}
+#flex-item10{
+   margin: 20px;
+}
+#flex-item11{
+   margin: 20px;
 }
